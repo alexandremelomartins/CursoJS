@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comendo Pizza</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <p>Escolha o tamanho da Pizza:
+            <input type="radio" name="tamanho" id="p">
+            <label for="p">Pequena</label>
+            <input type="radio" name="tamanho" id="m">
+            <label for="m">Média</label>
+            <input type="radio" name="tamanho" id="g">
+            <label for="g">Grande</label>
+            <input type="radio" name="tamanho" id="f">
+            <label for="f">Família</label>
+        </p>
+        <p>
+            <input type="submit" value="Selecionar" onclick="enviar()">
+        </p>        
+    </div>
+    <div id="res-tam"></div>
+    <div id="res-ped"></div>
+    <script src="script.js"></script>
+</body>
+</html>
